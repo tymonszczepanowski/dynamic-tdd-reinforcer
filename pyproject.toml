@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dtdd_reinforcer"
+version = "0.1.0"
+description = ""
+authors = ["Tymon Szczepanowski <tymon.szczepanowski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+torch = "^2.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
